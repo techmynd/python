@@ -1,0 +1,108 @@
+
+python version
+================
+> python --version
+
+run commands in terminal
+=========================
+> python
+
+install python vscode extension
+
+run a file // from terminal
+===========================
+> python filename.py
+
+simple code // print statement
+==============================
+print('1')
+
+vscode debugger
+================
+vscode > ctrl+shift+p > select intrepreter > select pythong projct > select python version > hit play button in debug at left side bar
+
+================================
+
+in project folder, run command 
+> python -m venv ./venv
+
+> source ./venv/Scripts/activate
+or
+> ./venv/Scripts/activate.bat
+
+check whats installed
+=====================
+> pip freeze
+
+install django in venv environment
+===================================
+> pip install django
+check whats installed
+> pip freeze
+
+you should see 
+Django==2.2.3
+pytz==2019.1
+sqlparse==0.3.0
+
+
+how to install
+==================
+pip install thing-to-install
+
+Django commands
+===============
+> django-admin help
+
+django commands
+===============
+[django]
+    check
+    compilemessages
+    createcachetable
+    dbshell
+    diffsettings
+    dumpdata
+    flush
+    inspectdb
+    loaddata
+    makemessages
+    makemigrations
+    migrate
+    runserver
+    sendtestemail
+    shell
+    showmigrations
+    sqlflush
+    sqlmigrate
+    sqlsequencereset
+    squashmigrations
+    startapp
+    startproject
+    test
+    testserver
+
+========================
+
+create django project
+=====================
+
+command is startproject and btre is name of projecta and . for current directory
+
+> django-admin startproject btre .
+
+manage.py is file that you will not touch / its got commands
+
+> python manage.py help
+
+
+
+
+
+
+
+
+
+
+
+

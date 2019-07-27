@@ -4,8 +4,11 @@
 # ==============
 
 # Date Today
+import validator
+import camelcase
 import time  # or # from time import time
 import datetime  # or # from datetime import date
+
 today = datetime.date.today()
 
 # or
@@ -21,7 +24,28 @@ print('TIMESTAMP >> ', timestamp)
 
 # or
 # from time import time
-'''
-timestampp = time()
-print('TIMESTAMP2 >> ', timestampp)
-'''
+# timestampp = time()
+# print('TIMESTAMP2 >> ', timestampp)
+
+###################
+# Module Install
+###################
+# camelcase
+# pip install camelcase
+# pip freeze // see installed moduled
+
+# use package camelcase
+# import camelcase
+# convert case to camel case
+camel = camelcase.CamelCase()
+text = 'hello there world'
+print(camel.hump(text))
+
+# validate email
+# import validator
+# or # from validator import validate_email // if validate_email(email): print...
+email = 'test@test.com'
+if validator.validate_email(email):
+    print('Email is valid')
+else:
+    print('Email not valid')

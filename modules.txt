@@ -1,0 +1,60 @@
+> pip install packagename
+> pip freeze // see installed modules
+> pip install pylint // linter install globally
+
+
+https://pypi.org
+
+Popular packages/libraries
+==========================
+
+Requests
+http://www.python-requests.org
+
+Web Scraping
+http://www.scrapy.org
+
+Image
+https://github.com/python-imaging/Pillow
+
+Math Functions
+http://numpy.scipy.org
+
+Algorithms and math tools
+http://www.scipy.org
+
+Data Science
+http://matplotlib.sourceforge.net
+
+http://www.riverbankcomputing.co.uk/pyqt/
+http://www.pygtk.org/
+
+Interact with Windows
+http://sourceforge.net/projects/pywin32/
+
+Test driven development
+http://code.google.com/p/python-nose/
+
+http://ipython.scipy.org/moin/
+
+TensorFlow
+Scikit-Learn
+Keras
+PyTorch
+LightGBM
+Eli5
+Theano
+Pandas
+
+
+https://wiki.python.org/moin/UsefulModules
+
+Date and Time
+https://pendulum.eustace.io
+
+pip environment / dependency management
+https://github.com/pypa/pipenv
+
+
+
+

@@ -1,0 +1,7 @@
+run file
+
+> python filename.py
+
+if depends on version and in MAC
+> python3 filename.py
+

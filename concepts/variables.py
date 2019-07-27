@@ -17,3 +17,35 @@ VARIABLE RULES:
 '''
 print('hello py')
 '''
+
+# no semicolons, no curly brackets
+
+# Declare Variables
+x = 1                     # int or whole number
+y = 2.5                   # float / decimal number
+name = "Javed"            # string
+Name = 'Javed Khalil'     # string
+is_cool = True            # bool (bool is technical term not boolean)
+is_Bad = False            # bool
+isCool = True             # bool
+
+# Multiple Assignment
+x, y, name, is_cool = (1, 2.5, 'Javed', True)
+
+print(isCool)               # print
+
+# multiple print
+print(x, y, name, is_cool)  # print
+
+# basic math
+a = x+y
+print(a)
+
+# check type
+print(type(is_cool))
+
+# casting
+m = str(x)
+n = int(y)
+# n = float(x)
+print("change type of x int to str", type(m))  # we converted int into string

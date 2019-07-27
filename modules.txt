@@ -1,5 +1,7 @@
 > pip install packagename
+> pip3 install packagename
 > pip freeze // see installed modules
+> pip3 freeze // see installed modules
 > pip install pylint // linter install globally
 
 

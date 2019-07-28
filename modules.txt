@@ -1,3 +1,12 @@
+vscode extensions
+====================
+
+Jinja (jinja template language support)
+Python
+pylint
+
+
+
 > pip install packagename
 > pip3 install packagename
 > pip freeze // see installed modules

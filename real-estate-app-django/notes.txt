@@ -8,6 +8,8 @@ run commands in terminal
 > python
 
 install python vscode extension
+install pylint > pip install pylint
+pip install autopep8
 
 run a file // from terminal
 ===========================
@@ -23,21 +25,39 @@ vscode > ctrl+shift+p > select intrepreter > select pythong projct > select pyth
 
 ================================
 
-in project folder, run command 
+project setup starts from here
+
+================================
+
+// in project folder, run command (to create environment / new environment)
+
 > python -m venv ./venv
+
+// Activate environment (run this command in git bash or terminal)
+// if below path does not work, try absolute path to activate.bat
 
 > source ./venv/Scripts/activate
 or
-> ./venv/Scripts/activate.bat
+> ./venv/Scripts/activate.bat (this did not work for me)
+
+This will put you in current project environment
+
+// leave environment
+
+> deactivate
 
 check whats installed
 =====================
+
 > pip freeze
 
 install django in venv environment
 ===================================
-> pip install django
+
+> pip install django (// this will install django in environment not globally)
+
 check whats installed
+
 > pip freeze
 
 you should see 
@@ -45,6 +65,8 @@ Django==2.2.3
 pytz==2019.1
 sqlparse==0.3.0
 
+// install autopep8 in venv
+> pip install autopep8
 
 how to install
 ==================
@@ -84,8 +106,9 @@ django commands
 
 ========================
 
-create django project
-=====================
+create django project // in your choosen environment // env (see above commends)
+
+========================
 
 command is startproject and btre is name of projecta and . for current directory
 
@@ -94,6 +117,38 @@ command is startproject and btre is name of projecta and . for current directory
 manage.py is file that you will not touch / its got commands
 
 > python manage.py help
+
+=============================
+
+VSCODE Select intrepreter
+
+==============================
+
+ctrl+shift+p
+
+Python: Select Intrepreter
+Select project
+Select line with venv
+
+==============================
+
+django comes with a dev server to run
+
+> python manage.py runserver
+
+http://localhost:8000/
+http://localhost:8000/admin
+http://localhost:8000/admin/login/?next=/admin/
+
+username / pass config for admin
+
+> python manage.py migrate
+> python manage.py createsuperuser
+
+
+
+
+
 
 
 

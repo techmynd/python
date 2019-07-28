@@ -1,0 +1,12 @@
+https://djangobook.com/
+https://djangobook.com/mdj2-django-templates/
+https://realpython.com/django-redirects/
+https://scotch.io/tutorials/working-with-django-templates-static-files
+https://stackoverflow.com/questions/5733172/django-how-to-partial-render
+
+
+
+
+
+
+

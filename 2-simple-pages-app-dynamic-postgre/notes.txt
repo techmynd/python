@@ -79,5 +79,78 @@ connect to postgres
 
 > pip install psycopg2
 > pip install psycopg2-binary
+> pip install Pillow (for images)
 
 go to settings.py and databases area
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'simple-site-django',
+        'USER': 'postgres',
+        'PASSWORD': 'admin',
+        'HOST': 'localhost'
+    }
+}
+
+
+run migrations
+==============
+> python manage.py migrate
+
+migrate will add tables in postgres db but thats after you specify db details in manage.py
+
+run server
+python manage.py runserver
+http://localhost:8000/
+
+schema
+======
+
+1- Page Name
+2- Page details
+3- Published or not
+
+run migration to create schema
+
+> python manage.py makemigrations
+and 
+> python manage.py migrate
+
+tables will be created based on model
+
+////////////////// 
+
+create superuser
+================
+
+> python manage.py runserver
+
+http://localhost:8000
+http://localhost:8000/admin
+
+> python manage.py createsuperuser
+if it gives error
+use
+> winpty python manage.py createsuperuser
+and select user and password
+
+login to admin
+
+u: admin
+p: admin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

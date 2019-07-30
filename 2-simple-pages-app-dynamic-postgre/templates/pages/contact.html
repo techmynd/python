@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+  <div class="pg-wrap mt-5">
+    <div class="container">
+      <h2>{{ pages.title }}</h2>
+      <p>{{ pages.details }}</p>
+      <form method="post" action="{% url 'contact' %}">
+        {% csrf_token %}
+        <div class="form-group">
+          <label>Full Name</label>
+          <input name="sender_full_name" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label>Email Address</label>
+          <input name="sender_email_address" type="email" class="form-control">
+        </div>
+        <div class="form-group">
+          <label>Details</label>
+          <textarea name="email_message" class="form-control"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </div>
+{% endblock %}

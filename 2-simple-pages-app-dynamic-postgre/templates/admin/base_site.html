@@ -1,0 +1,16 @@
+{% extends 'admin/base.html' %}
+{% load static %}
+
+{% block branding %}
+  <h1 id="head">
+    Simple Django Site
+    <!--
+      give here image to change admin area text to image
+      <img src="{% static 'images/logo.png' %}" alt="">
+    -->
+  </h1>
+{% endblock %}
+
+{% block extrastyle %}
+  <link rel="stylesheet" href="{% static 'styles/admin.css' %}">
+{% endblock %}

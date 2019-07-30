@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+  <div class="pg-wrap mt-5">
+    <div class="container">
+      <h2>{{ pages.title }}</h2>
+      <p>{{ pages.details }}</p>
+      <p><img src="/media/{{ pages.image }}" class="img-fluid"></p>
+    </div>
+  </div>
+{% endblock %}

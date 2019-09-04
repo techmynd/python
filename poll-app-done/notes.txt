@@ -1,0 +1,78 @@
+Steps
+=====
+> pip install pipenv
+> pipenv shell
+> pipenv install django
+> django-admin startproject pollster
+> cd pollster
+
+// run server
+> python manage.py runserver
+  http://localhost:8000/
+
+// run migrations
+> python manage.py migrate
+
+> python manage.py startapp polls
+
+// create model // add app in settings file
+
+> python manage.py makemigrations polls
+// and
+> python manage.py migrate
+
+> python manage.py createsuperuser
+// or
+> winpty python manage.py createsuperuser
+
+user: admin
+pass: admin
+email: admin
+
+> python manage.py runserver
+
+http://localhost:8000/admin/
+admin
+admin
+
+
+
+
+https://www.youtube.com/watch?v=e1IyzVyrLSU&loop=0
+
+
+start app
+=========
+
+cd pollster
+
+// inside pollster
+// python\poll-app\pollster
+
+// run server
+
+> python manage.py runserver
+
+// and go to 
+http://localhost:8000/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

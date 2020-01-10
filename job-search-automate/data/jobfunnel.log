@@ -1,0 +1,139 @@
+INFO:root:jobfunnel initialized at 2020-01-11
+WARNING:root:no master-list, filter-list was not updated
+INFO:root:jobfunnel indeed to pickle running @ 2020-01-11
+ERROR:root:failed to scrape Indeed: 'NoneType' object has no attribute 'contents'
+INFO:root:jobfunnel monster to pickle running @ 2020-01-11
+ERROR:urllib3.connection:Certificate did not match expected hostname: www.monster.pk. Certificate: {'subject': ((('organizationalUnitName', 'Domain Control Validated'),), (('organizationalUnitName', 'Hosted by HostGator.com, LLC.'),), (('organizationalUnitName', 'PositiveSSL Wildcard'),), (('commonName', '*.hostgator.com'),)), 'issuer': ((('countryName', 'GB'),), (('stateOrProvinceName', 'Greater Manchester'),), (('localityName', 'Salford'),), (('organizationName', 'COMODO CA Limited'),), (('commonName', 'COMODO RSA Domain Validation Secure Server CA'),)), 'version': 3, 'serialNumber': 'C4300B6EE3EA96DA3B9A8B2F17D0299A', 'notBefore': 'Oct  2 00:00:00 2018 GMT', 'notAfter': 'Oct  1 23:59:59 2020 GMT', 'subjectAltName': (('DNS', '*.hostgator.com'), ('DNS', 'hostgator.com')), 'OCSP': ('http://ocsp.comodoca.com',), 'caIssuers': ('http://crt.comodoca.com/COMODORSADomainValidationSecureServerCA.crt',), 'crlDistributionPoints': ('http://crl.comodoca.com/COMODORSADomainValidationSecureServerCA.crl',)}
+ERROR:root:failed to scrape Monster: HTTPSConnectionPool(host='www.monster.pk', port=443): Max retries exceeded with url: /jobs/search/?q=React-Frontend-Reactjs-React%20Native-React%20JS-Senior%20Frontend&where=Lahore__2C-Punjab&intcid=skr_navigation_nhpso_searchMain&rad=10&where=Lahore__2c-Punjab (Caused by SSLError(SSLCertVerificationError("hostname 'www.monster.pk' doesn't match either of '*.hostgator.com', 'hostgator.com'")))
+INFO:root:jobfunnel glassdoor to pickle running @ 2020-01-11
+ERROR:root:failed to scrape GlassDoor: 'NoneType' object has no attribute 'text'
+INFO:root:jobfunnel initialized at 2020-01-11
+WARNING:root:no master-list, filter-list was not updated
+INFO:root:jobfunnel indeed to pickle running @ 2020-01-11
+ERROR:root:failed to scrape Indeed: 'NoneType' object has no attribute 'contents'
+INFO:root:jobfunnel monster to pickle running @ 2020-01-11
+ERROR:urllib3.connection:Certificate did not match expected hostname: www.monster.com.pk. Certificate: {'subject': ((('organizationalUnitName', 'Domain Control Validated'),), (('organizationalUnitName', 'Hosted by HostGator.com, LLC.'),), (('organizationalUnitName', 'PositiveSSL Wildcard'),), (('commonName', '*.hostgator.com'),)), 'issuer': ((('countryName', 'GB'),), (('stateOrProvinceName', 'Greater Manchester'),), (('localityName', 'Salford'),), (('organizationName', 'COMODO CA Limited'),), (('commonName', 'COMODO RSA Domain Validation Secure Server CA'),)), 'version': 3, 'serialNumber': 'C4300B6EE3EA96DA3B9A8B2F17D0299A', 'notBefore': 'Oct  2 00:00:00 2018 GMT', 'notAfter': 'Oct  1 23:59:59 2020 GMT', 'subjectAltName': (('DNS', '*.hostgator.com'), ('DNS', 'hostgator.com')), 'OCSP': ('http://ocsp.comodoca.com',), 'caIssuers': ('http://crt.comodoca.com/COMODORSADomainValidationSecureServerCA.crt',), 'crlDistributionPoints': ('http://crl.comodoca.com/COMODORSADomainValidationSecureServerCA.crl',)}
+ERROR:root:failed to scrape Monster: HTTPSConnectionPool(host='www.monster.com.pk', port=443): Max retries exceeded with url: /jobs/search/?q=React-Frontend-Reactjs-React%20Native-React%20JS-Senior%20Frontend&where=Lahore__2C-Punjab&intcid=skr_navigation_nhpso_searchMain&rad=10&where=Lahore__2c-Punjab (Caused by SSLError(SSLCertVerificationError("hostname 'www.monster.com.pk' doesn't match either of '*.hostgator.com', 'hostgator.com'")))
+INFO:root:jobfunnel glassdoor to pickle running @ 2020-01-11
+ERROR:root:failed to scrape GlassDoor: HTTPSConnectionPool(host='www.glassdoor.com.pk', port=443): Max retries exceeded with url: /Job/jobs.htm (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x06E33790>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed'))
+INFO:root:jobfunnel initialized at 2020-01-11
+WARNING:root:no master-list, filter-list was not updated
+INFO:root:jobfunnel indeed to pickle running @ 2020-01-11
+ERROR:root:failed to scrape Indeed: 'NoneType' object has no attribute 'contents'
+INFO:root:jobfunnel monster to pickle running @ 2020-01-11
+ERROR:root:failed to scrape Monster: 'NoneType' object has no attribute 'text'
+INFO:root:jobfunnel glassdoor to pickle running @ 2020-01-11
+INFO:root:Found 4 glassdoor results for query=React-Frontend-Reactjs-React Native-React JS-Senior Frontend
+INFO:root:getting glassdoor page 1 : https://www.glassdoor.com/Job/jobs.htm
+INFO:root:removed 0 jobs in blacklist from master-list
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=101&ao=389273&s=58&guid=0000016f90e2c4deb26dcd93b8f415ab&src=GD_JOB_AD&t=SR&extid=1&exst=L&ist=&ast=L&vt=w&slr=true&cs=1_fdf664f9&cb=1578683778726&jobListingId=3451471218
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=102&ao=66506&s=58&guid=0000016f90e2c4deb26dcd93b8f415ab&src=GD_JOB_AD&t=SR&extid=1&exst=L&ist=&ast=L&vt=w&slr=true&ea=1&cs=1_4a4888d1&cb=1578683778727&jobListingId=3430919738
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=103&ao=437149&s=58&guid=0000016f90e2c4deb26dcd93b8f415ab&src=GD_JOB_AD&t=SR&extid=1&exst=L&ist=&ast=L&vt=w&slr=true&cs=1_c2c4e58e&cb=1578683778728&jobListingId=3246028224
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=104&ao=389273&s=58&guid=0000016f90e2c4deb26dcd93b8f415ab&src=GD_JOB_AD&t=SR&extid=1&exst=L&ist=&ast=L&vt=w&slr=true&cs=1_40744bf2&cb=1578683778728&jobListingId=3422939679
+WARNING:root:no jobs filtered, missing data\filter_list.json
+INFO:root:removed 0 jobs in blacklist from master-list
+INFO:root:Found and removed 0 re-posts/duplicates via TFIDF cosine similarity!
+INFO:root:no masterlist detected, added 4 jobs to master_list.csv
+INFO:root:done. see un-archived jobs in master_list.csv
+INFO:root:jobfunnel initialized at 2020-01-11
+INFO:root:jobfunnel indeed to pickle running @ 2020-01-11
+ERROR:root:failed to scrape Indeed: 'NoneType' object has no attribute 'contents'
+INFO:root:jobfunnel monster to pickle running @ 2020-01-11
+ERROR:urllib3.connection:Certificate did not match expected hostname: www.monster.pk. Certificate: {'subject': ((('organizationalUnitName', 'Domain Control Validated'),), (('organizationalUnitName', 'Hosted by HostGator.com, LLC.'),), (('organizationalUnitName', 'PositiveSSL Wildcard'),), (('commonName', '*.hostgator.com'),)), 'issuer': ((('countryName', 'GB'),), (('stateOrProvinceName', 'Greater Manchester'),), (('localityName', 'Salford'),), (('organizationName', 'COMODO CA Limited'),), (('commonName', 'COMODO RSA Domain Validation Secure Server CA'),)), 'version': 3, 'serialNumber': 'C4300B6EE3EA96DA3B9A8B2F17D0299A', 'notBefore': 'Oct  2 00:00:00 2018 GMT', 'notAfter': 'Oct  1 23:59:59 2020 GMT', 'subjectAltName': (('DNS', '*.hostgator.com'), ('DNS', 'hostgator.com')), 'OCSP': ('http://ocsp.comodoca.com',), 'caIssuers': ('http://crt.comodoca.com/COMODORSADomainValidationSecureServerCA.crt',), 'crlDistributionPoints': ('http://crl.comodoca.com/COMODORSADomainValidationSecureServerCA.crl',)}
+ERROR:root:failed to scrape Monster: HTTPSConnectionPool(host='www.monster.pk', port=443): Max retries exceeded with url: /jobs/search/?q=React-Frontend-Reactjs-React%20Native-React%20JS-Senior%20Frontend&where=Lahore__2C-Punjab&intcid=skr_navigation_nhpso_searchMain&rad=10&where=Lahore__2c-Punjab (Caused by SSLError(SSLCertVerificationError("hostname 'www.monster.pk' doesn't match either of '*.hostgator.com', 'hostgator.com'")))
+INFO:root:jobfunnel glassdoor to pickle running @ 2020-01-11
+ERROR:root:failed to scrape GlassDoor: 'NoneType' object has no attribute 'text'
+INFO:root:jobfunnel initialized at 2020-01-11
+INFO:root:jobfunnel indeed to pickle running @ 2020-01-11
+ERROR:root:failed to scrape Indeed: 'NoneType' object has no attribute 'contents'
+INFO:root:jobfunnel monster to pickle running @ 2020-01-11
+ERROR:urllib3.connection:Certificate did not match expected hostname: www.monster.com.pk. Certificate: {'subject': ((('organizationalUnitName', 'Domain Control Validated'),), (('organizationalUnitName', 'Hosted by HostGator.com, LLC.'),), (('organizationalUnitName', 'PositiveSSL Wildcard'),), (('commonName', '*.hostgator.com'),)), 'issuer': ((('countryName', 'GB'),), (('stateOrProvinceName', 'Greater Manchester'),), (('localityName', 'Salford'),), (('organizationName', 'COMODO CA Limited'),), (('commonName', 'COMODO RSA Domain Validation Secure Server CA'),)), 'version': 3, 'serialNumber': 'C4300B6EE3EA96DA3B9A8B2F17D0299A', 'notBefore': 'Oct  2 00:00:00 2018 GMT', 'notAfter': 'Oct  1 23:59:59 2020 GMT', 'subjectAltName': (('DNS', '*.hostgator.com'), ('DNS', 'hostgator.com')), 'OCSP': ('http://ocsp.comodoca.com',), 'caIssuers': ('http://crt.comodoca.com/COMODORSADomainValidationSecureServerCA.crt',), 'crlDistributionPoints': ('http://crl.comodoca.com/COMODORSADomainValidationSecureServerCA.crl',)}
+ERROR:root:failed to scrape Monster: HTTPSConnectionPool(host='www.monster.com.pk', port=443): Max retries exceeded with url: /jobs/search/?q=React-Frontend-Reactjs-React%20Native-React%20JS-Senior%20Frontend&where=Lahore__2C-Punjab&intcid=skr_navigation_nhpso_searchMain&rad=10&where=Lahore__2c-Punjab (Caused by SSLError(SSLCertVerificationError("hostname 'www.monster.com.pk' doesn't match either of '*.hostgator.com', 'hostgator.com'")))
+INFO:root:jobfunnel glassdoor to pickle running @ 2020-01-11
+ERROR:root:failed to scrape GlassDoor: HTTPSConnectionPool(host='www.glassdoor.com.pk', port=443): Max retries exceeded with url: /Job/jobs.htm (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x06E952F0>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed'))
+INFO:root:jobfunnel initialized at 2020-01-11
+INFO:root:jobfunnel indeed to pickle running @ 2020-01-11
+ERROR:root:failed to scrape Indeed: HTTPConnectionPool(host='www.indeed.com*', port=80): Max retries exceeded with url: /jobs?q=React+Frontend+Reactjs+React%20Native+React%20JS+Senior%20Frontend&l=Lahore%2C+Punjab&radius=10&limit=50&filter=0 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x06E34270>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed'))
+INFO:root:jobfunnel monster to pickle running @ 2020-01-11
+ERROR:root:failed to scrape Monster: HTTPSConnectionPool(host='www.monster.com*', port=443): Max retries exceeded with url: /jobs/search/?q=React-Frontend-Reactjs-React%20Native-React%20JS-Senior%20Frontend&where=Lahore__2C-Punjab&intcid=skr_navigation_nhpso_searchMain&rad=10&where=Lahore__2c-Punjab (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x06E34170>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed'))
+INFO:root:jobfunnel glassdoor to pickle running @ 2020-01-11
+ERROR:root:failed to scrape GlassDoor: HTTPSConnectionPool(host='www.glassdoor.com*', port=443): Max retries exceeded with url: /Job/jobs.htm (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x06E340D0>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed'))
+INFO:root:jobfunnel initialized at 2020-01-11
+INFO:root:jobfunnel indeed to pickle running @ 2020-01-11
+ERROR:root:failed to scrape Indeed: 'NoneType' object has no attribute 'contents'
+INFO:root:jobfunnel monster to pickle running @ 2020-01-11
+ERROR:root:failed to scrape Monster: 'NoneType' object has no attribute 'text'
+INFO:root:jobfunnel glassdoor to pickle running @ 2020-01-11
+INFO:root:Found 4 glassdoor results for query=React-Frontend-Reactjs-React Native-React JS-Senior Frontend
+INFO:root:getting glassdoor page 1 : https://www.glassdoor.com/Job/jobs.htm
+INFO:root:found 0 unique job ids and 4 duplicates from glassdoor
+INFO:root:removed 0 jobs in blacklist from master-list
+INFO:root:jobfunnel initialized at 2020-01-11
+INFO:root:jobfunnel indeed to pickle running @ 2020-01-11
+ERROR:root:failed to scrape Indeed: 'NoneType' object has no attribute 'contents'
+INFO:root:jobfunnel monster to pickle running @ 2020-01-11
+ERROR:root:failed to scrape Monster: 'NoneType' object has no attribute 'text'
+INFO:root:jobfunnel glassdoor to pickle running @ 2020-01-11
+INFO:root:Found 54 glassdoor results for query=Frontend
+INFO:root:getting glassdoor page 1 : https://www.glassdoor.com/Job/jobs.htm
+INFO:root:getting glassdoor page 2 : https://www.glassdoor.com/Job/lahore-frontend-jobs-SRCH_IL.0,6_IC3206630_KO7,15_IP2.htm?radius=10
+INFO:root:found 50 unique job ids and 4 duplicates from glassdoor
+INFO:root:removed 0 jobs present in filter-list
+INFO:root:removed 0 jobs in blacklist from master-list
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=101&ao=437149&s=58&guid=0000016f90e846e3a471db14d11d6ba5&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&cs=1_79ed5761&cb=1578684139432&jobListingId=3443449988
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=102&ao=437149&s=58&guid=0000016f90e846e3a471db14d11d6ba5&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&cs=1_45956463&cb=1578684139434&jobListingId=3199916162
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=104&ao=437149&s=58&guid=0000016f90e846e3a471db14d11d6ba5&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&cs=1_d5e2af0d&cb=1578684139436&jobListingId=3200028711
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=105&ao=389273&s=58&guid=0000016f90e846e3a471db14d11d6ba5&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&cs=1_3633f3de&cb=1578684139437&jobListingId=3460322036
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=106&ao=437149&s=58&guid=0000016f90e846e3a471db14d11d6ba5&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&cs=1_ac14cf28&cb=1578684139438&jobListingId=3200028725
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=107&ao=437149&s=58&guid=0000016f90e846e3a471db14d11d6ba5&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&cs=1_7b3ba008&cb=1578684139439&jobListingId=3391145978
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=108&ao=437149&s=58&guid=0000016f90e846e3a471db14d11d6ba5&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&cs=1_585d6f7a&cb=1578684139441&jobListingId=3265731487
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=109&ao=389273&s=58&guid=0000016f90e846e3a471db14d11d6ba5&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&cs=1_a4d034c2&cb=1578684139442&jobListingId=3446857151
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=110&ao=437149&s=58&guid=0000016f90e846e3a471db14d11d6ba5&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&cs=1_333d8bc4&cb=1578684139443&jobListingId=3427855632
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=111&ao=437149&s=58&guid=0000016f90e846e3a471db14d11d6ba5&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&ea=1&cs=1_06788e40&cb=1578684139443&jobListingId=3240582662
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=112&ao=437149&s=58&guid=0000016f90e846e3a471db14d11d6ba5&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&cs=1_b1bb0f31&cb=1578684139444&jobListingId=3367216478
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=113&ao=437149&s=58&guid=0000016f90e846e3a471db14d11d6ba5&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&cs=1_21294e2a&cb=1578684139445&jobListingId=3241394762
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=114&ao=389273&s=58&guid=0000016f90e846e3a471db14d11d6ba5&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&cs=1_f44d2755&cb=1578684139446&jobListingId=3455523195
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=115&ao=437149&s=58&guid=0000016f90e846e3a471db14d11d6ba5&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&cs=1_346306bd&cb=1578684139453&jobListingId=3399939425
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=116&ao=437149&s=58&guid=0000016f90e846e3a471db14d11d6ba5&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&cs=1_98e6bab9&cb=1578684139454&jobListingId=3442313066
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=117&ao=389273&s=58&guid=0000016f90e846e3a471db14d11d6ba5&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&cs=1_dc5be7e4&cb=1578684139454&jobListingId=3439691758
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=118&ao=437149&s=58&guid=0000016f90e846e3a471db14d11d6ba5&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&cs=1_524c4566&cb=1578684139455&jobListingId=3460454858
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=119&ao=437149&s=58&guid=0000016f90e846e3a471db14d11d6ba5&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&cs=1_8efa4589&cb=1578684139456&jobListingId=3199990679
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=120&ao=437149&s=58&guid=0000016f90e846e3a471db14d11d6ba5&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&cs=1_e91cd658&cb=1578684139456&jobListingId=3446948284
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=121&ao=389273&s=58&guid=0000016f90e846e3a471db14d11d6ba5&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&cs=1_62e6388d&cb=1578684139457&jobListingId=3454041548
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=122&ao=389273&s=58&guid=0000016f90e846e3a471db14d11d6ba5&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&cs=1_006a75d8&cb=1578684139458&jobListingId=3460322230
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=124&ao=437149&s=58&guid=0000016f90e846e3a471db14d11d6ba5&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&cs=1_62d495d5&cb=1578684139459&jobListingId=3199997644
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=125&ao=355036&s=58&guid=0000016f90e846e3a471db14d11d6ba5&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&ea=1&cs=1_bd283f33&cb=1578684139460&jobListingId=3270323491
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=126&ao=66506&s=58&guid=0000016f90e846e3a471db14d11d6ba5&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&ea=1&cs=1_f1a26d8d&cb=1578684139461&jobListingId=3430919733
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=127&ao=437149&s=58&guid=0000016f90e846e3a471db14d11d6ba5&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&cs=1_f0088a53&cb=1578684139462&jobListingId=3206687520
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=128&ao=389273&s=58&guid=0000016f90e846e3a471db14d11d6ba5&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&cs=1_8f82860a&cb=1578684139463&jobListingId=3443327606
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=129&ao=389273&s=58&guid=0000016f90e846e3a471db14d11d6ba5&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&cs=1_a41d3b96&cb=1578684139463&jobListingId=3457362188
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=130&ao=389273&s=58&guid=0000016f90e846e3a471db14d11d6ba5&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&cs=1_141885eb&cb=1578684139464&jobListingId=3455523185
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=201&ao=437149&s=58&guid=0000016f90e846a38972d5ac3ea9759d&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&cs=1_351a380e&cb=1578684139500&jobListingId=3199974546
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=202&ao=66506&s=58&guid=0000016f90e846a38972d5ac3ea9759d&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&ea=1&cs=1_0790a037&cb=1578684139501&jobListingId=3430919740
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=203&ao=437149&s=58&guid=0000016f90e846a38972d5ac3ea9759d&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&cs=1_40a8750f&cb=1578684139501&jobListingId=3448635724
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=205&ao=437149&s=58&guid=0000016f90e846a38972d5ac3ea9759d&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&cs=1_ada6b96f&cb=1578684139503&jobListingId=3432360604
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=206&ao=389273&s=58&guid=0000016f90e846a38972d5ac3ea9759d&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&cs=1_255ceee9&cb=1578684139504&jobListingId=3445703430
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=207&ao=389273&s=58&guid=0000016f90e846a38972d5ac3ea9759d&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&cs=1_b1ac743f&cb=1578684139504&jobListingId=3455523205
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=209&ao=437149&s=58&guid=0000016f90e846a38972d5ac3ea9759d&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&cs=1_7bb2ae03&cb=1578684139506&jobListingId=3353734573
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=210&ao=437149&s=58&guid=0000016f90e846a38972d5ac3ea9759d&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&cs=1_12a4937b&cb=1578684139507&jobListingId=3384204087
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=211&ao=437149&s=58&guid=0000016f90e846a38972d5ac3ea9759d&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&cs=1_0bbfd27a&cb=1578684139508&jobListingId=3214236420
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=212&ao=389273&s=58&guid=0000016f90e846a38972d5ac3ea9759d&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&cs=1_c92694e3&cb=1578684139508&jobListingId=3437660388
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=213&ao=389273&s=58&guid=0000016f90e846a38972d5ac3ea9759d&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&cs=1_39b0e49b&cb=1578684139509&jobListingId=3445703432
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=214&ao=437149&s=58&guid=0000016f90e846a38972d5ac3ea9759d&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&cs=1_897146c9&cb=1578684139510&jobListingId=3199993700
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=215&ao=437149&s=58&guid=0000016f90e846a38972d5ac3ea9759d&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&cs=1_58e69cb9&cb=1578684139510&jobListingId=3200033514
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=216&ao=437149&s=58&guid=0000016f90e846a38972d5ac3ea9759d&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&cs=1_27cf681e&cb=1578684139511&jobListingId=3199914917
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=217&ao=389273&s=58&guid=0000016f90e846a38972d5ac3ea9759d&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&cs=1_e0892165&cb=1578684139511&jobListingId=3441558704
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=218&ao=437149&s=58&guid=0000016f90e846a38972d5ac3ea9759d&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&cs=1_5a9bbfd7&cb=1578684139512&jobListingId=3447262837
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=219&ao=437149&s=58&guid=0000016f90e846a38972d5ac3ea9759d&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&cs=1_3e7675c0&cb=1578684139513&jobListingId=3391651421
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=220&ao=389273&s=58&guid=0000016f90e846a38972d5ac3ea9759d&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&cs=1_36048eea&cb=1578684139513&jobListingId=3445430211
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=221&ao=389273&s=58&guid=0000016f90e846a38972d5ac3ea9759d&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&cs=1_16c9a81a&cb=1578684139514&jobListingId=3438823272
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=222&ao=35800&s=58&guid=0000016f90e846a38972d5ac3ea9759d&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&cs=1_9f4d9eaa&cb=1578684139515&jobListingId=3022117081
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=223&ao=66506&s=58&guid=0000016f90e846a38972d5ac3ea9759d&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&ea=1&cs=1_40324592&cb=1578684139516&jobListingId=3430919732
+INFO:root:getting glassdoor search: https://www.glassdoor.com/partner/jobListing.htm?pos=224&ao=437149&s=58&guid=0000016f90e846a38972d5ac3ea9759d&src=GD_JOB_AD&t=SR&extid=1&exst=OL&ist=&ast=OL&vt=w&slr=true&cs=1_1bed5cf6&cb=1578684139516&jobListingId=3442458181
+INFO:root:removed 0 jobs present in filter-list
+INFO:root:removed 0 jobs in blacklist from master-list
+INFO:root:removed 0 jobs present in filter-list
+INFO:root:removed 0 jobs in blacklist from master-list
+INFO:root:Found and removed 3 re-posts/duplicates via TFIDF cosine similarity!
+INFO:root:found 47 unique listings and 3 duplicates via TFIDF cosine similarity
+INFO:root:done. see un-archived jobs in master_list.csv

@@ -1,0 +1,16 @@
+source: https://github.com/PaulMcInnis/JobFunnel
+
+1- run install
+> pip install git+https://github.com/PaulMcInnis/JobFunnel.git
+
+2- create settings.yaml file / alread in project / update settings
+Use one keyword at a time
+
+3- run script
+> funnel -s settings.yaml
+
+it will generate csv file with jobs listing for given keyword
+
+for tutorial see 'chris hawkes'
+
+
